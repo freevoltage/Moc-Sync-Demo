@@ -1,0 +1,53 @@
+filters:
+  and:
+    - note.up == this.file
+formulas:
+  Alive: |
+    (now() - file.ctime)
+  Backlinks: file.backlinks.length
+properties:
+  note.topic:
+    displayName: Topic
+  formula.Backlinks:
+    displayName: Backlinks
+views:
+  - type: table
+    name: MOC
+    filters:
+      and:
+        - '!file.hasTag("Topic")'
+        - '!file.name.endsWith("MOC")'
+    order:
+      - file.name
+      - formula.Backlinks
+      - topic
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Inbox
+    order:
+      - file.name
+      - created
+      - formula.Alive
+    sort:
+      - property: formula.Test Alive
+        direction: DESC
+      - property: formula.Alive
+        direction: ASC
+    columnSize:
+      note.created: 118
+      formula.Alive: 228
+  - type: table
+    name: Topics
+    filters:
+      and:
+        - file.hasTag("Topic")
+    order:
+      - file.name
+      - formula.Backlinks
+    sort:
+      - property: formula.Backlinks
+        direction: DESC

@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "31ab6d5ebb5bf690",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fa80275a905cb03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e82ba201b1ddf2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Area/Money MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Money MOC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "389e5050c93f544e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a67739712ee275e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b091b75086dc3727",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ae992df73ee5fe12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3b3f71da2025c718",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a9fe262f9dce51b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb5ee32e42cf5b4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d65567df5575348",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0 Inbox MOC/0 Inbox MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 0 Inbox MOC"
+            }
+          },
+          {
+            "id": "2d8c7d5777390dbb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0 Inbox MOC/0 Inbox MOC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 0 Inbox MOC"
+            }
+          },
+          {
+            "id": "ce273f0b56a60209",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c6c33125803bce1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0 Inbox MOC/0 Inbox MOC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 0 Inbox MOC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7e82ba201b1ddf2f",
+  "lastOpenFiles": [
+    "2 Area/Personal MOC.md",
+    "2 Area/Money MOC.md",
+    "Extras/Templates/Template Inbox.md",
+    "1 Projects/Project B/Project B.md",
+    "1 Projects/Project A/Project A.md",
+    "BUGS.md",
+    "2 Area/Personal MOC/Test Nested.md",
+    "0 Inbox MOC/0 Inbox MOC.md",
+    "Extras/Bases/MOC Base.base",
+    "2 Area/2 Area.md",
+    "Extras/Bases/RecentlyModified.base",
+    "1 Projects/1 Projects.md",
+    "2 Area/Money MOC/Money Topic Note.md",
+    "0 Inbox MOC/Test Note.md",
+    "Extras/Bases",
+    "2026-02-18.md",
+    "Home.md"
+  ]
+}

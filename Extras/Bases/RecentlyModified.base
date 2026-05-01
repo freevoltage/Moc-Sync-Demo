@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.tags.contains("DailyNotes")'
+        - file.name != "Home"
+        - '!file.name.endsWith("MOC")'
+        - '!file.name.endsWith("base")'
+        - file.ext.endsWith("md")
+        - '!file.tags.contains("WeeklyNotes")'
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 15
